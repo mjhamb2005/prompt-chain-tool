@@ -28,9 +28,13 @@ export default function ThemeToggle() {
 
   return (
     <button onClick={cycle} style={{
-      background: 'var(--bg-hover)', border: '1px solid var(--border)', borderRadius: '6px',
-      padding: '5px 10px', cursor: 'pointer', fontSize: '14px', fontFamily: 'var(--mono)',
-      fontSize: '11px', color: 'var(--text-dim)'
+      background: 'var(--bg-hover)',
+      border: '1px solid var(--border)',
+      borderRadius: '6px',
+      padding: '5px 10px',
+      cursor: 'pointer',
+      fontSize: '11px',
+      color: 'var(--text-dim)'
     }} title={`Theme: ${theme}`}>
       {icon} {theme}
     </button>
